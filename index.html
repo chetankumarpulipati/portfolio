@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Chetan Kumar Pulipati - Portfolio</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+
+<body>
+<div class="container">
+<nav>
+	<a href="index.html"><label class="logo">Chetan Pulipati</label></a>
+	<input type="checkbox" id="check">
+	<label for="check" class="checkbtn">
+		<i class="fa-solid fa-bars"></i>
+	</label>
+	<ul>
+		<li class="active"><a href="index.html">Home</a></li>
+		<li><a href="#">About Me</a></li>
+		<li><a href="#">Skills</a></li>
+		<li><a href="#">Projects</a></li>
+        <div class="dropdown">
+			<button class="dropbtn">Other Websites
+                <i class="fa fa-caret-down"></i>
+            </button>
+			<div class="dropdown-content">
+                <a href="#web">Web Development</a>
+                <a href="#app">App Development</a>
+                <a href="#data">Data Science</a>
+            </div>
+		</div>
+		<li><a href="#">Contact</a></li>
+		<input type="checkbox" id="check">
+	</ul>
+	</nav>
+	<img src="gallery/chetan.jpg" class="chetan">
+	<div class="internal">
+		<div class="work">Hi, I'm Chetan &#x1F44B;</div>
+		<div class="inside">I am a Data Scientist, Web Developer and Android Application Developer</div>
+		<hr id="white"></hr>
+		<div class="about_me"><p>About me</p></div>
+		<div class="separate">I am a Data Science Student at Mohan Babu University, Tirupati</div>
+	    <div class="separate1">I am an Engineer. I am currently searching for freelance projects on Web Development. 
+			<div>I enjoy reading Books.I work on Android Application Programming during my free time.</div>
+		</div>
+	<div class="image-container">
+			<img src="gallery/gamer.png" alt="Image 1"  onclick="openLightbox('gallery/gamer.png')">
+			<img src="gallery/ethical-hacking.png" alt="Image 2" onclick="openLightbox('gallery/ethical-hacking.png')">
+			<img src="gallery/space.png" alt="Image 3" onclick="openLightbox('gallery/space.png')">
+	</div>
+	<div class="text-container">
+	<li>I am a Gamer. Play Chess, Solve puzzles, BGMI Player	.</li>
+    <li>Love Ethical Hacking. Whenever I am free, <br>apart from Data Science, I am Interested in learning new Techniques in Ethical Hacking.</li>
+	<li>Interested in knowing about new discovery of exoplanets and extraterrestrial life</li>
+    </div>
+		  <div class="lightbox" id="lightbox"  onclick="closeLightbox()">
+			<img src="" alt="Enlarged Image" id="lightbox-img">
+		  </div>
+		  <hr id="white"></hr>
+		<div class="skills">Skills
+			<div class="image-container">
+				<div  class="technical_proficiency">
+				<img  src="gallery/c_lang.png" alt="c lang">
+				<img  src="gallery/css.png" alt="css">
+				<img  src="gallery/html.png" alt="html">
+				<img  src="gallery/java.png" alt="java">
+				<img src="gallery/sql.png" alt="sql">
+				<img src="gallery/react.png" alt="react">
+				<img src="gallery/python.png" alt="python">
+				<img src="gallery/node.png" alt="node">
+				<img src="gallery/js.png" alt="javascript">
+				<img src="gallery/kotlin.png" alt="kotlin">
+				<img src="gallery/google cloud.png" alt="gccf">
+			</div>
+			</div>
+		<div class="projects">Projects</div>
+	</div>	
+	</div>
+	</div>
+<footer>
+	<center><h1>Contact Details</h1></center>
+<section class="instagrambtn">
+	<a href="https://www.instagram.com/chetan_kumar_p_04/" target="_blank"><i class="fa-brands fa-instagram" style="color: #96af31;"></i></a>
+	<a href="https://twitter.com/ChetanK77580589" target="_blank"><i class="fa-brands fa-twitter" style="color: #2e60b8;"></i></a>
+	<a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp" style="color: #2eb878;"></i></a>
+</section>
+	<p>
+	<div>Phone: +91 9963813470</div>
+	 Mail: chetankumarpulipati4@gmail.com</p>
+	<hr><div class="copyright">Copyright 2023 @chetankumarpulipati</div></hr>
+	<hr></hr>
+</footer>
+
+</ul>
+</div>
+</body>
+</html>
